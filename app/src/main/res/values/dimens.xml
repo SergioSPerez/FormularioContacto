@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamano_titulo">35dp</dimen>
+    <dimen name="tamano_info">20dp</dimen>
+    <dimen name="sangria_izq">20dp</dimen>
+</resources>

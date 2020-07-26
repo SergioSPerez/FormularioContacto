@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PantallaConfirmacion">
+
+    <TextView
+        android:id="@+id/tvConfDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmacion_datos"
+        android:textSize="@dimen/tamano_titulo"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+    android:id="@+id/tvNombre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/nombre"
+    android:textSize="@dimen/tamano_info"
+    android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/tvDatoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="@dimen/tamano_info"
+        android:paddingLeft="@dimen/sangria_izq"
+        />
+
+    <TextView
+        android:id="@+id/tvFechaNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fech_nac"
+        android:textSize="@dimen/tamano_info"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvDatoFechaNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dd/mm/aa"
+        android:textSize="@dimen/tamano_info"
+        android:paddingLeft="@dimen/sangria_izq"
+        />
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/telefono"
+        android:textSize="@dimen/tamano_info"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvDatoTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7776666"
+        android:textSize="@dimen/tamano_info"
+        android:paddingLeft="@dimen/sangria_izq"
+        />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="@dimen/tamano_info"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvDatoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sssss@gmail.com"
+        android:textSize="@dimen/tamano_info"
+        android:paddingLeft="@dimen/sangria_izq"
+        />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descrip_contacto"
+        android:textSize="@dimen/tamano_info"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvDatoDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="prueba"
+        android:textSize="@dimen/tamano_info"
+        android:paddingLeft="@dimen/sangria_izq"
+        />
+
+    <Button
+        android:id="@+id/btnMibotonE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editar_datos"
+        android:theme="@style/MiBotonRaised">
+
+    </Button>
+
+</LinearLayout>

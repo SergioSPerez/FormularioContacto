@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvdatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/datos"
+        android:textSize="@dimen/tamano_titulo"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilFechaNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fech_nac"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietFechaNac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:focusable="false"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/tilTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefono"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/tilEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/tilDesContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/descrip_contacto"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietDesContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnMiboton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_btn_click"
+        android:theme="@style/MiBotonRaised"
+        >
+
+    </Button>
+
+
+</LinearLayout>
